@@ -7,6 +7,12 @@
 </head>
 <body>
     <?php
+        $num = rand(1,10);
+        if ($num % 2 == 0) {
+            echo "<p>Il numero $num è pari</p>";
+        } else {
+            echo "<p>Il numero $num è dispari</p>";
+        }
     ?>
 </body>
 </html>
